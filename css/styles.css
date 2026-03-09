@@ -406,7 +406,7 @@ button {
     background-color: #4d5ae5;
 
     transform: translateY(100%);
-    transition: var(--anim-slow);
+    transition: var(--anim-normal);
     transition-property: transform;
 }
 
@@ -454,11 +454,12 @@ button {
 
 .page-footer .container {
     display: flex;
-    gap: 120px;
 }
 
 .footer-logo-block {
     width: 264px;
+    margin-right: 120px;
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -481,6 +482,7 @@ button {
 
 .footer-social-block {
     width: 208px;
+    align-items: baseline;
 }
 
 .footer-social-text {
@@ -514,5 +516,10 @@ button {
 .social-link-elem:focus {
     background-color: #31d0aa;
 }
+
+.social-link-icon {
+    fill: var(--icon-color);
+}
+
 /* #endregion */
 
