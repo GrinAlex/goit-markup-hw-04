@@ -454,12 +454,12 @@ button {
 
 .page-footer .container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-logo-block {
     width: 264px;
     margin-right: 120px;
-    align-items: baseline;
 }
 
 .footer-logo {
@@ -482,7 +482,6 @@ button {
 
 .footer-social-block {
     width: 208px;
-    align-items: baseline;
 }
 
 .footer-social-text {
