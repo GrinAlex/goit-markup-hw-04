@@ -1,6 +1,9 @@
 /* #region Variablex */
 :root {
 
+    /* Icon */
+    --icon-color: #f4f4fd;
+
     /* Transitions */
     --anim-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --anim-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -342,6 +345,10 @@ button {
 .item-social-link-elem:hover,
 .item-social-link-elem:focus {
     background-color: #404bbf;
+}
+
+.item-social-link-icon {
+   fill: var(--icon-color);
 }
 
 /* #endregion */
